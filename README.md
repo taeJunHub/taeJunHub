@@ -1,7 +1,7 @@
 
 <!--타이틀 부분-->
 <div align="center">
-  <img src="https://github.com/oka1313/oka1313/assets/101691440/92118a53-c5b6-40bc-b130-bf8c398d7b51" /> 123123
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=header&text=K-T-J&fontSize=90" />
 </div>
 
 <!--내용 부분-->
@@ -69,6 +69,9 @@
     <img
       src="https://img.shields.io/badge/oka1313@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>&nbsp
   </a>
+</div>
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=K-T-J&theme=ambient_gradient&show_icons=true">
 </div>
 <!--
 **K-T-J/K-T-J** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
