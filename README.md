@@ -1,7 +1,7 @@
 
 <!--타이틀 부분-->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=header&text=K-T-J&fontSize=90" />
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=header&text=K-T-J&fontSize=90&animation=twinkling" />
 </div>
 
 <!--내용 부분-->
@@ -73,6 +73,14 @@
 <div align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=K-T-J&theme=ambient_gradient&show_icons=true">
 </div>
+
+
+### Watch my contribution graph get eaten by the snake🐍
+![snake svg](https://github.com/K-T-J/K-T-J/blob/output/github-contribution-grid-snake.svg)
+
+
+
+
 <!--
 **K-T-J/K-T-J** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
