@@ -71,7 +71,7 @@
   </a>
 </div>
 <div align="center"> 
-    <img src="https://github-readme-stats.vercel.app/api?username=K-T-J&theme=ambient_gradient&show_icons=true">
+    <img src="https://github-readme-stats.vercel.app/api?username=taeJunHub&theme=ambient_gradient&show_icons=true">
 </div>
 
 
