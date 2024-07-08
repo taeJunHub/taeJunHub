@@ -70,7 +70,7 @@
       src="https://img.shields.io/badge/oka1313@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>&nbsp
   </a>
 </div>
-<div align="center">
+<div align="center"> 
     <img src="https://github-readme-stats.vercel.app/api?username=K-T-J&theme=ambient_gradient&show_icons=true">
 </div>
 
