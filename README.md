@@ -75,7 +75,7 @@
 </div>
 
 
-<!-- ### Watch my contribution graph get eaten by the snake🐍-->
+<!-- ### Watch my contribution graph get eaten by the snake🐍--> 
 ![snake svg](https://github.com/K-T-J/K-T-J/blob/output/github-contribution-grid-snake.svg)
 
 
