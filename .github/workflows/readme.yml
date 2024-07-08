@@ -39,24 +39,12 @@ jobs:
       # show the status of the build. Makes it easier for debugging (if there's any issues).
       - run: git status
 
-
-      - name: Clear Cache  # 캐시 지우기 명칭
-        uses: actions/cache@v3  # 캐시 관리 액션 사용
-        with:
-          path: |  # 캐시를 지울 디렉토리 목록
-            **/node_modules
-            **/~
-          key: ${{ runner.os }}-build-${{ hashFiles('**/package*.json') }}  # 캐시 키 생성
-          restore-keys: |  # 복원할 캐시 키 목록 (없음)
-            ${{ runner.os }}-build-
-
-
       # Push the changes
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          #github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          #github_token: ${{ secrets.GH_TOKEN }}
           branch: main
           #branch: ${{ github.ref }}
           force: true
