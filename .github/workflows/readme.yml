@@ -44,7 +44,7 @@ jobs:
         with:
           #github_token: ${{ secrets.GITHUB_TOKEN }}
           github_token: ${{ secrets.GH_TOKEN }}
-          branch: master
+          branch: main
           force: true
 
       - uses: crazy-max/ghaction-github-pages@v2.1.3
