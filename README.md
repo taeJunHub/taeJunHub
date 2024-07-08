@@ -76,7 +76,7 @@
 
 
 <!-- ### Watch my contribution graph get eaten by the snake🐍--> 
-![snake svg](https://github.com/taeJunHub/taeJunHub/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/taeJunHub/taeJunHub/blob/output/github-contribution-grid-snake.svg)
 
 
 
