@@ -77,19 +77,6 @@
 
 <!-- ### Watch my contribution graph get eaten by the snake🐍--> 
 ![snake gif](https://github.com/taeJunHub/taeJunHub/blob/output/github-contribution-grid-snake.svg)
-<!--
-    # 종류
-    profile-3d-contrib/profile-green-animate.svg
-    profile-3d-contrib/profile-green.svg
-    profile-3d-contrib/profile-season-animate.svg
-    profile-3d-contrib/profile-season.svg
-    profile-3d-contrib/profile-south-season-animate.svg
-    profile-3d-contrib/profile-south-season.svg
-    profile-3d-contrib/profile-night-view.svg
-    profile-3d-contrib/profile-night-green.svg
-    profile-3d-contrib/profile-night-rainbow.svg
-    profile-3d-contrib/profile-gitblock.svg
--->
 ![](./profile-3d-contrib/profile-green-animate.svg)
 
 
