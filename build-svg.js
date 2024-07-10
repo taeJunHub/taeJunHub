@@ -75,7 +75,7 @@ const psTime = formatDistance(new Date(2020, 12, 14), today, {
 // Today's weather
 const locationKey = '226081' // Seoul
 let url = `currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}&language=ko-kr`
-got(url, {
+got.get(url, {
     prefixUrl: WEATHER_DOMAIN
 }).then((res) => {
     console.log("res >> " , res);
