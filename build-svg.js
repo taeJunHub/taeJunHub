@@ -1,12 +1,12 @@
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY
 
 import fs from 'fs-extra';
-import got from 'got';
+//import got from 'got';
 //import qty from 'js-quantities';
 import { formatDistance } from 'date-fns';
 import fetch from 'node-fetch';
 
-let WEATHER_DOMAIN = 'http://dataservice.accuweather.com';
+//let WEATHER_DOMAIN = 'http://dataservice.accuweather.com';
 
 const emojis = {
     '1': '☀️',
