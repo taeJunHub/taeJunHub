@@ -80,7 +80,9 @@ let url2 = `http://dataservice.accuweather.com/currentconditions/v1/${locationKe
 fetch(url2,{
     method: "GET",
 }).then((res) => {
-    console.log("res >> " , res);
+    console.log("res1 >> " , res);
+    console.log("res2 >> " , res.body);
+    console.log("res3 >> " , JSON.parse(res.body));
     let json = JSON.parse(res.body)
 
     const degC = json.Temperature.Metric.Value;
