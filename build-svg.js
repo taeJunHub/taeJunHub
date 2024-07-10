@@ -1,11 +1,12 @@
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY
 
-import got from 'got';
 import fs from 'fs-extra';
+import got from 'got';
 //import qty from 'js-quantities';
-import { formatDistance }from 'date-fns';
+import { formatDistance } from 'date-fns';
+import fetch from 'node-fetch';
 
-let WEATHER_DOMAIN = 'http://dataservice.accuweather.com'
+let WEATHER_DOMAIN = 'http://dataservice.accuweather.com';
 
 const emojis = {
     '1': '☀️',
@@ -74,11 +75,11 @@ const psTime = formatDistance(new Date(2020, 12, 14), today, {
 
 // Today's weather
 const locationKey = '226081' // Seoul
-let url = `currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}&language=ko-kr`
-got.get(url, {
-    prefixUrl: WEATHER_DOMAIN
+let url = `currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}&language=ko-kr`;
+let url2 = `http://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}&language=ko-kr`;
+fetch(url2,{
+    method: "GET",
 }).then((res) => {
-    console.log("res >> " , res);
     let json = JSON.parse(res.body)
 
     const degC = json.Temperature.Metric.Value;
@@ -109,7 +110,45 @@ got.get(url, {
             }
         })
     })
-}).catch((err) => {
-    // TODO: something better
-    console.log(err)
 })
+
+
+
+
+// got.get(url, {
+//     prefixUrl: WEATHER_DOMAIN
+// }).then((res) => {
+//     let json = JSON.parse(res.body)
+//
+//     const degC = json.Temperature.Metric.Value;
+//     const degF = json.Temperature.Imperial.Value;
+//     const icon = json.WeatherIcon;
+//     const hasPrecipitation = json.HasPrecipitation; //강수량 true,false
+//     const weatherText = json.WeatherText;
+//
+//     fs.readFile('template.svg', 'utf-8', (error, data) => {
+//         if (error) {
+//             console.error(error)
+//             return
+//         }
+//
+//         data = data.replace('{degC}', degC);
+//         data = data.replace('{degF}', degF);
+//         data = data.replace('{weatherEmoji}', emojis[icon]);
+//         data = data.replace('{psTime}', psTime);
+//         data = data.replace('{todayDay}', todayDay);
+//         data = data.replace('{dayBubbleWidth}', dayBubbleWidths[todayDay]);
+//         data = data.replace('{hasPrecipitation}', hasPrecipitation);
+//         data = data.replace('{weatherText}', weatherText);
+//
+//         data = fs.writeFile('chat.svg', data, (err) => {
+//             if (err) {
+//                 console.error(err)
+//                 return
+//             }
+//         })
+//     })
+// }).catch((err) => {
+//     // TODO: something better
+//     console.log(err)
+// })
