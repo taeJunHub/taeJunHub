@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "fs-extra": "^11.2.0",
+    "got": "^14.4.1",
+    "js-quantities": "^1.8.0",
+    "openweather-apis": "^4.5.0"
+  }
+}
