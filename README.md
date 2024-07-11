@@ -98,6 +98,9 @@
 </picture>
 
 ![snake gif](https://github.com/taeJunHub/taeJunHub/blob/output/github-contribution-grid-snake.svg)
+
+<img src="https://github.com/taeJunHub/taeJunHub/blob/output/github-snake-dark.svg" width="100%">
+
 <!-- 
     # 종류
     profile-3d-contrib/profile-green-animate.svg
