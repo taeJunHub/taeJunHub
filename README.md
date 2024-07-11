@@ -78,33 +78,24 @@
 
 <!--snake🐍--> 
 
-[//]: # (<picture>)
+<picture>
 
-[//]: # (  <source)
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/taeJunHub/taeJunHub/output/github-contribution-grid-snake-dark.svg"
+  />
 
-[//]: # (    media="&#40;prefers-color-scheme: dark&#41;")
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/taeJunHub/taeJunHub/output/github-contribution-grid-snake.svg"
+  />
 
-[//]: # (    srcset="https://raw.githubusercontent.com/taeJunHub/taeJunHub/output/github-contribution-grid-snake-dark.svg")
+  <img
+    alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/taeJunHub/taeJunHub/output/github-contribution-grid-snake.svg"
+  />
 
-[//]: # (  />)
-
-[//]: # (  <source)
-
-[//]: # (    media="&#40;prefers-color-scheme: light&#41;")
-
-[//]: # (    srcset="https://raw.githubusercontent.com/taeJunHub/taeJunHub/output/github-contribution-grid-snake.svg")
-
-[//]: # (  />)
-
-[//]: # (  <img)
-
-[//]: # (    alt="github contribution grid snake animation")
-
-[//]: # (    src="https://raw.githubusercontent.com/taeJunHub/taeJunHub/output/github-contribution-grid-snake.svg")
-
-[//]: # (  />)
-
-[//]: # (</picture>)
+</picture>
 
 ![snake gif](https://github.com/taeJunHub/taeJunHub/blob/output/github-contribution-grid-snake.svg)
 <!-- 
