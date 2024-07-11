@@ -207,7 +207,7 @@
 
         <!-- From Columbus... -->
         <g transform="translate(10, 48)" class="msg-2">
-            <rect width="500" height="90.1302" rx="18.0355" />
+            <rect width="480" height="90.1302" rx="18.0355" />
 <!--            <text x="15" y="27">I live in Seoul Korea – it’s supposed to be 79° F</text>-->
 <!--            <text x="15" y="50">(28° C) and ☀️ here today.</text>            -->
             <text x="15" y="27">I live in Seoul Korea</text>
@@ -305,7 +305,7 @@
 
         <!-- Have a great... -->
         <g transform="translate(10, 289)" class="msg-6">
-            <rect width="210" height="42" rx="18.0355" />
+            <rect width="250" height="42" rx="18.0355" />
             <text x="15" y="27">Have a great {todayDay}! 👋🏻</text>
         </g>
     </svg>
