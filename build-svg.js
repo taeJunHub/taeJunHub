@@ -1,12 +1,16 @@
-const WEATHER_API_KEY = process.env.WEATHER_API_KEY
+import dotenv from 'dotenv';
+dotenv.config();
 
+const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 import fs from 'fs-extra';
-//import got from 'got';
-//import qty from 'js-quantities';
+import got from 'got';
 import { formatDistance } from 'date-fns';
-import fetch from 'node-fetch';
 
-//let WEATHER_DOMAIN = 'http://dataservice.accuweather.com';
+
+
+
+
+let WEATHER_DOMAIN = 'http://dataservice.accuweather.com';
 
 const emojis = {
     '1': '☀️',
@@ -76,21 +80,18 @@ const psTime = formatDistance(new Date(2020, 12, 14), today, {
 // Today's weather
 const locationKey = '226081' // Seoul
 let url = `currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}&language=ko-kr`;
-let url2 = `http://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}&language=ko-kr`;
-fetch(url2,{
-    method: "GET",
+
+got.get(url, {
+    prefixUrl: WEATHER_DOMAIN
 }).then((res) => {
-    console.log("url >> " , url2);
-    console.log("res1 >> " , res);
-    console.log("res2 >> " , res.body);
-    console.log("res3 >> " , JSON.parse(res.body));
+    console.log("res >> " , res)
     let json = JSON.parse(res.body)
 
-    const degC = json.Temperature.Metric.Value;
-    const degF = json.Temperature.Imperial.Value;
-    const icon = json.WeatherIcon;
-    const hasPrecipitation = json.HasPrecipitation; //강수량 true,false
-    const weatherText = json.WeatherText;
+    const degC = json[0].Temperature.Metric.Value;
+    const degF = json[0].Temperature.Imperial.Value;
+    const icon = json[0].WeatherIcon;
+    const hasPrecipitation = json[0].HasPrecipitation; //강수량 true,false
+    const weatherText = json[0].WeatherText;
 
     fs.readFile('template.svg', 'utf-8', (error, data) => {
         if (error) {
@@ -114,45 +115,7 @@ fetch(url2,{
             }
         })
     })
+}).catch((err) => {
+    // TODO: something better
+    console.log(err)
 })
-
-
-
-
-// got.get(url, {
-//     prefixUrl: WEATHER_DOMAIN
-// }).then((res) => {
-//     let json = JSON.parse(res.body)
-//
-//     const degC = json.Temperature.Metric.Value;
-//     const degF = json.Temperature.Imperial.Value;
-//     const icon = json.WeatherIcon;
-//     const hasPrecipitation = json.HasPrecipitation; //강수량 true,false
-//     const weatherText = json.WeatherText;
-//
-//     fs.readFile('template.svg', 'utf-8', (error, data) => {
-//         if (error) {
-//             console.error(error)
-//             return
-//         }
-//
-//         data = data.replace('{degC}', degC);
-//         data = data.replace('{degF}', degF);
-//         data = data.replace('{weatherEmoji}', emojis[icon]);
-//         data = data.replace('{psTime}', psTime);
-//         data = data.replace('{todayDay}', todayDay);
-//         data = data.replace('{dayBubbleWidth}', dayBubbleWidths[todayDay]);
-//         data = data.replace('{hasPrecipitation}', hasPrecipitation);
-//         data = data.replace('{weatherText}', weatherText);
-//
-//         data = fs.writeFile('chat.svg', data, (err) => {
-//             if (err) {
-//                 console.error(err)
-//                 return
-//             }
-//         })
-//     })
-// }).catch((err) => {
-//     // TODO: something better
-//     console.log(err)
-// })
