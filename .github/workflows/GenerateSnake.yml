@@ -35,6 +35,7 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v4
         with:
+          target_branch: output
           author_name: taeJunHub
           author_email: kisdo0084@naver.com
           message: "Auto updating my Generate Snake"
