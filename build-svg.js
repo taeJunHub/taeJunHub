@@ -84,13 +84,12 @@ let url = `currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}&languag
 got.get(url, {
     prefixUrl: WEATHER_DOMAIN
 }).then((res) => {
-    console.log("res >> " , res)
     let json = JSON.parse(res.body)
 
     const degC = json[0].Temperature.Metric.Value;
     const degF = json[0].Temperature.Imperial.Value;
     const icon = json[0].WeatherIcon;
-    const hasPrecipitation = json[0].HasPrecipitation; //강수량 true,false
+    const hasPrecipitation = json[0].HasPrecipitation == true ? "" : 'no'; //강수량 true,false
     const weatherText = json[0].WeatherText;
 
     fs.readFile('template.svg', 'utf-8', (error, data) => {
