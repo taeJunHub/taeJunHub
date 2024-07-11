@@ -27,7 +27,7 @@ jobs:
         with:
           author_name: taeJunHub
           author_email: kisdo0084@naver.com
-          message: "Auto updating my readme"
+          message: "Auto updating my Chat Weater"
           add: "*.svg"
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
