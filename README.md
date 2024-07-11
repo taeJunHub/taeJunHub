@@ -1,9 +1,7 @@
 
 <!--header 부분-->
 <div align="center">
-
-[//]: # (  <img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&height=300&section=header&text=%100Welcome%100&fontSize=90&animation=twinkling&textBg=true" />)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=bitbit&size=30&duration=1000&color=F713BD&background=000000F6&center=true&vCenter=true&multiline=true&random=false&width=auto&height=100&lines=Welecome+To;TaeJunHub+GitHub)](https://git.io/typing-svg)
+  <img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&height=300&section=header&text=%100Welcome%100&fontSize=90&animation=twinkling&textBg=true" />
 </div>
 
 <!--내용 부분-->
