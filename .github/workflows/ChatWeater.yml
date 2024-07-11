@@ -1,4 +1,4 @@
-name: Update readme
+name: Chat Weater
 
 on:
   schedule:

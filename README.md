@@ -75,14 +75,8 @@
     <img src="https://github-readme-stats.vercel.app/api?username=taeJunHub&theme=ambient_gradient&show_icons=true">
 </div>
 
-
-<!--snake🐍-->
-
-[//]: # (![snake gif]&#40;https://github.com/taeJunHub/taeJunHub/blob/output/github-contribution-grid-snake.svg&#41;)
-<img src="https://github.com/taeJunHub/taeJunHub/blob/output/github-snake-dark.svg" width="100%">
-
 <!-- 
-    # 종류
+    # 3D Chart 종류
     profile-3d-contrib/profile-green-animate.svg
     profile-3d-contrib/profile-green.svg
     profile-3d-contrib/profile-season-animate.svg
@@ -96,7 +90,8 @@
 -->
 ![](./profile-3d-contrib/profile-gitblock.svg)
 
-
+<!--snake🐍-->
+<img src="https://github.com/taeJunHub/taeJunHub/blob/output/github-snake-dark.svg" width="100%">
 
 <!--
 **K-T-J/K-T-J** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
