@@ -1,7 +1,7 @@
 
 <!--header 부분-->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&height=300&section=header&text=Welcome to /n TaeJunHub GutHub &fontSize=90&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&height=300&section=header&text=Welcome to TaeJunHub GutHub &fontSize=90&animation=twinkling" />
 </div>
 
 <!--내용 부분-->
