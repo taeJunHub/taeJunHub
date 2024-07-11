@@ -76,8 +76,24 @@
 </div>
 
 
-<!-- ### Watch my contribution graph get eaten by the snake🐍--> 
-![snake gif](https://github.com/taeJunHub/taeJunHub/blob/output/github-contribution-grid-snake.svg)
+<!--snake🐍--> 
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/taeJunHub/taeJunHub/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/taeJunHub/taeJunHub/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/taeJunHub/taeJunHub/output/github-contribution-grid-snake.svg"
+  />
+</picture>
+
+[//]: # (![snake gif]&#40;https://github.com/taeJunHub/taeJunHub/blob/output/github-contribution-grid-snake.svg&#41;)
 <!-- 
     # 종류
     profile-3d-contrib/profile-green-animate.svg
