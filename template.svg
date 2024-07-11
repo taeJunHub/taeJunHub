@@ -207,12 +207,13 @@
 
         <!-- From Columbus... -->
         <g transform="translate(10, 48)" class="msg-2">
-            <rect width="550" height="90.1302" rx="18.0355" />
+            <rect width="500" height="90.1302" rx="18.0355" />
 <!--            <text x="15" y="27">I live in Seoul Korea – it’s supposed to be 79° F</text>-->
 <!--            <text x="15" y="50">(28° C) and ☀️ here today.</text>            -->
             <text x="15" y="27">I live in Seoul Korea</text>
-            <text x="15" y="50">The current temperature in Seoul is estimated to be {degC}° C({degF}° F)</text>
-            <text x="15" y="73">There is {hasPrecipitation} precipitation and it is {weatherEmoji}({weatherText})</text>
+            <text x="15" y="50">The current temperature is estimated to be {degC}° C({degF}° F)</text>
+<!--            <text x="15" y="73">There is {hasPrecipitation} precipitation and it is {weatherEmoji}({weatherText})</text>-->
+            <text x="15" y="73">There is no precipitation and it is (Partly sunny)</text>
         </g>
 
         <!-- typing 3 -->
