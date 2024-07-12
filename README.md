@@ -4,6 +4,7 @@
 ![header](https://capsule-render.vercel.app/api?type=transparent&color=gradient&height=200&section=header&text=%20Welcome%20To-nl-TaeJunHub%20GitHub%20&fontSize=90&fontColor=f15fd3&animation=twinkling&textBg=false&stroke=fae794&strokeWidth=3&textBg=true&fontAlign=50) 
 ***
 <!--내용 부분-->
+## 💬 Chat 💬
 ![message_svg](https://github.com/taeJunHub/taeJunHub/blob/main/chat.svg)
 ***
 
@@ -76,7 +77,7 @@
     <img src="https://github-readme-stats.vercel.app/api?username=taeJunHub&theme=ambient_gradient&show_icons=true">
 </div>
 
-***
+## 📊 3D Contributions 📊
 
 <!-- 
     # 3D Chart 종류
@@ -94,6 +95,7 @@
 ![](./profile-3d-contrib/profile-gitblock.svg)
 
 <!--snake🐍-->
+## 🐍 Snake Contributions 🐍
 <img src="https://github.com/taeJunHub/taeJunHub/blob/output/github-snake-dark.svg" width="100%">
 
 <!--
