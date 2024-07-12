@@ -75,7 +75,9 @@
 <div align="center"> 
     <img src="https://github-readme-stats.vercel.app/api?username=taeJunHub&theme=ambient_gradient&show_icons=true">
 </div>
+
 ***
+
 <!-- 
     # 3D Chart 종류
     profile-3d-contrib/profile-green-animate.svg
@@ -90,7 +92,7 @@
     profile-3d-contrib/profile-gitblock.svg
 -->
 ![](./profile-3d-contrib/profile-gitblock.svg)
-***
+
 <!--snake🐍-->
 <img src="https://github.com/taeJunHub/taeJunHub/blob/output/github-snake-dark.svg" width="100%">
 
