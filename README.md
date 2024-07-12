@@ -2,9 +2,11 @@
 
 <!--header 부분-->
 ![header](https://capsule-render.vercel.app/api?type=transparent&color=gradient&height=200&section=header&text=%20Welcome%20To-nl-TaeJunHub%20GitHub%20&fontSize=90&fontColor=f15fd3&animation=twinkling&textBg=false&stroke=fae794&strokeWidth=3&textBg=true&fontAlign=50) 
-
+***
 <!--내용 부분-->
 ![message_svg](https://github.com/taeJunHub/taeJunHub/blob/main/chat.svg)
+***
+
 <h3 align="center">✨ Tech Stack ✨</h3>
 <div align="center">
   <img src="https://img.shields.io/badge/react-20232a.svg?style=for-the-badge&logo=react&logoColor=61DAFB" />&nbsp
@@ -73,7 +75,7 @@
 <div align="center"> 
     <img src="https://github-readme-stats.vercel.app/api?username=taeJunHub&theme=ambient_gradient&show_icons=true">
 </div>
-
+***
 <!-- 
     # 3D Chart 종류
     profile-3d-contrib/profile-green-animate.svg
@@ -88,7 +90,7 @@
     profile-3d-contrib/profile-gitblock.svg
 -->
 ![](./profile-3d-contrib/profile-gitblock.svg)
-
+***
 <!--snake🐍-->
 <img src="https://github.com/taeJunHub/taeJunHub/blob/output/github-snake-dark.svg" width="100%">
 
