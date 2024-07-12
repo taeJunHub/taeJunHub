@@ -26,6 +26,7 @@
     <img src="https://img.shields.io/badge/query_dsl-5C97FF.svg?style=for-the-badge&logo=qgis&logoColor=61DAFB" />
 </div>
 
+<br />
 
 [//]: # (## 📚 Studying 📚)
 
