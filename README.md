@@ -1,8 +1,7 @@
 
+
 <!--header 부분-->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&height=250&section=header&text=%20%20Welcome%20To-nl-TaeJunHub%20GitHub%20%20&fontSize=70&animation=twinkling&textBg=true" />
-</div>
+![header](https://capsule-render.vercel.app/api?type=transparent&color=gradient&height=200&section=header&text=%20Welcome%20To-nl-TaeJunHub%20GitHub%20&fontSize=90&fontColor=f15fd3&animation=twinkling&textBg=false&stroke=fae794&strokeWidth=3) 
 
 <!--내용 부분-->
 ![message_svg](https://github.com/taeJunHub/taeJunHub/blob/main/chat.svg)
