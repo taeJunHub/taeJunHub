@@ -5,7 +5,6 @@
 <!--내용 부분-->
 ## 💬 Chat 💬
 ![message_svg](https://github.com/taeJunHub/taeJunHub/blob/main/chat.svg)
-***
 
 ## ✨ Tech Stack ✨
 
