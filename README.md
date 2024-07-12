@@ -46,7 +46,7 @@
 </a>
 <img src="https://github-readme-stats.vercel.app/api?username=taeJunHub&theme=ambient_gradient&show_icons=true">
 
-## Contributions
+## 🌸 Contributions 🌸
 ### 📊 3D Chart 📊
 
 <!-- 
