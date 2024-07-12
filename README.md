@@ -2,11 +2,10 @@
 
 <!--header 부분-->
 ![header](https://capsule-render.vercel.app/api?type=transparent&color=gradient&height=200&section=header&text=%20Welcome%20To-nl-TaeJunHub%20GitHub%20&fontSize=90&fontColor=f15fd3&animation=twinkling&textBg=false&stroke=fae794&strokeWidth=3&textBg=true&fontAlign=50) 
-***
+
 <!--내용 부분-->
 ## 💬 Chat 💬
 ![message_svg](https://github.com/taeJunHub/taeJunHub/blob/main/chat.svg)
-***
 
 <h3 align="center">✨ Tech Stack ✨</h3>
 <div align="center">
