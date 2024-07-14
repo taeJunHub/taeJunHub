@@ -7,23 +7,24 @@
 ![message_svg](https://github.com/taeJunHub/taeJunHub/blob/main/chat.svg)
 
 ## ✨ Tech Stack ✨
-### Front
+### 🖥️ Front 🖥️
 <div>
     <img src="https://img.shields.io/badge/css3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
-    <img src="https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" /> <br />
+    <img src="https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
     <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />
-    <img src="https://img.shields.io/badge/react-20232a.svg?style=for-the-badge&logo=react&logoColor=61DAFB" /> <br />
-    <img src="https://img.shields.io/badge/vue-4FC08D.svg?style=for-the-badge&logo=vuedotjs&logoColor=61DAFB" />
     <img src="https://img.shields.io/badge/jquery-0769AD.svg?style=for-the-badge&logo=jquery&logoColor=61DAFB" />
+    <img src="https://img.shields.io/badge/react-20232a.svg?style=for-the-badge&logo=react&logoColor=61DAFB" />
+    <img src="https://img.shields.io/badge/vue-4FC08D.svg?style=for-the-badge&logo=vuedotjs&logoColor=61DAFB" />
 
 </div>
 
-### Back
+### 💻 Back 💻
 <div>
     <img src="https://img.shields.io/badge/java-DF0026.svg?style=for-the-badge&logo=jameson&logoColor=white" />
-    <img src="https://img.shields.io/badge/spring_boot-6DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white" /><br />
+    <img src="https://img.shields.io/badge/spring_boot-6DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white" />
     <img src="https://img.shields.io/badge/jpa-1071D3.svg?style=for-the-badge&logo=joplin&logoColor=20232a" />
     <img src="https://img.shields.io/badge/query_dsl-5C97FF.svg?style=for-the-badge&logo=qgis&logoColor=61DAFB" />
+    <img src="https://img.shields.io/badge/my_sql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=61DAFB" />
 </div>
 
 <br />
