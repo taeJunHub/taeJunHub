@@ -22,7 +22,7 @@ jobs:
           github_user_name: taeJunHub
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?color_snake=#B57EDC&color_dots=#F8F8F8,#33A03D,#FFCC00,#524CFF,#FF002A
+            dist/github-snake-dark.svg?color_snake=#B57EDC&color_dots=#F8F8F8,#33A03D,#524CFF,#FFCC00,#FF002A
 #            dist/github-snake-dark.svg?color_snake=#58A6FF&color_dots=#EEEEEE,#E1BEE7,#BA68C8,#8E24AA,#4A148C?palette=github-dark
 
       - name: push github-contribution-grid-snake.svg to the output branch
