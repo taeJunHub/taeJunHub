@@ -98,7 +98,7 @@ got.get(url, {
     const icon = json.Icon; //아이콘
     const iconPhrase = json.IconPhrase;  // 아이콘 문구
     const hasPrecipitation = json.HasPrecipitation ? "" : "no"; //강수량
-    const precipitationType = json.HasPrecipitation ? json.PrecipitationType : null; //강수량 유형
+    const precipitationType = json.HasPrecipitation ? "("+json.PrecipitationType+")" : ""; //강수량 유형
 
     // const degC = json[0].Temperature.Metric.Value;
     // const icon = json[0].WeatherIcon;
