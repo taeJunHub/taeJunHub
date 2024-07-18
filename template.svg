@@ -111,44 +111,44 @@
             @keyframes msg-3 {
             0% {
             opacity: 0;
-            transform: translate(10px, 150px);
+            transform: translate(10px, 170px);
             }
             100% {
             opacity: 1;
-            transform: translate(10px, 145px);
+            transform: translate(10px, 165px);
             }
             }
 
             @keyframes msg-4 {
             0% {
             opacity: 0;
-            transform: translate(10px, 198px);
+            transform: translate(10px, 218px);
             }
             100% {
             opacity: 1;
-            transform: translate(10px, 193px);
+            transform: translate(10px, 213px);
             }
             }
 
             @keyframes msg-5 {
             0% {
             opacity: 0;
-            transform: translate(10px, 246px);
+            transform: translate(10px, 266px);
             }
             100% {
             opacity: 1;
-            transform: translate(10px, 241px);
+            transform: translate(10px, 261px);
             }
             }
 
             @keyframes msg-6 {
             0% {
             opacity: 0;
-            transform: translate(10px, 294px);
+            transform: translate(10px, 314px);
             }
             100% {
             opacity: 1;
-            transform: translate(10px, 289px);
+            transform: translate(10px, 309px);
             }
             }
 
@@ -207,14 +207,15 @@
 
         <!-- From Columbus... -->
         <g transform="translate(10, 48)" class="msg-2">
-            <rect width="500" height="90.1302" rx="18.0355" />
+            <rect width="500" height="110.1302" rx="18.0355" />
             <text x="15" y="27">I live in Seoul Korea</text>
-            <text x="15" y="50">The current predicted temperature is a minimum of {degCMin}° C(maximum of {degCMax}° C).</text>
-            <text x="15" y="73">There is {hasPrecipitation} precipitation {precipitationType} and it is {weatherEmoji}({weatherText})</text>
+            <text x="15" y="50">The current predicted temperature is a</text>
+            <text x="15" y="73">minimum of {degCMin}° C(maximum of {degCMax}° C).</text>
+            <text x="15" y="96">There is {hasPrecipitation} precipitation {precipitationType} and it is {weatherEmoji}({weatherText})</text>
         </g>
 
         <!-- typing 3 -->
-        <g transform="translate(10, 145)" class="typing-3">
+        <g transform="translate(10, 165)" class="typing-3">
 
             <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
             <circle cx="13.591" cy="33.091" r="7.68185" />
@@ -233,13 +234,13 @@
         oo
 
         <!-- From Columbus... -->
-        <g transform="translate(10, 145)" class="msg-3">
+        <g transform="translate(10, 165)" class="msg-3">
             <rect width="280" height="42" rx="18.0355" />
             <text x="15" y="27">I'm a 3-year backend developer</text>
         </g>
 
         <!-- typing 4 -->
-        <g transform="translate(10, 193)" class="typing-4">
+        <g transform="translate(10, 213)" class="typing-4">
             <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
             <circle cx="13.591" cy="33.091" r="7.68185" />
             <circle cx="3.54547" cy="41.9547" r="3.54547" />
@@ -256,13 +257,13 @@
         </g>
 
         <!-- Twitter -->
-        <g transform="translate(10, 193)" class="msg-4">
+        <g transform="translate(10, 213)" class="msg-4">
             <rect width="325" height="42" rx="18.0355" />
             <text x="15" y="27"> It's still not enough, but I'll work hard </text>
         </g>
 
         <!-- typing 5 -->
-        <g transform="translate(10, 241)" class="typing-5">
+        <g transform="translate(10, 261)" class="typing-5">
             <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
             <circle cx="13.591" cy="33.091" r="7.68185" />
             <circle cx="3.54547" cy="41.9547" r="3.54547" />
@@ -279,13 +280,13 @@
         </g>
 
         <!-- Thanks -->
-        <g transform="translate(10, 241)" class="msg-5">
+        <g transform="translate(10, 261)" class="msg-5">
             <rect width="210" height="42" rx="18.0355" />
             <text x="15" y="27">Thanks for stopping by</text>
         </g>
 
         <!-- typing 6 -->
-        <g transform="translate(10, 289)" class="typing-6">
+        <g transform="translate(10, 309)" class="typing-6">
             <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
             <circle cx="13.591" cy="33.091" r="7.68185" />
             <circle cx="3.54547" cy="41.9547" r="3.54547" />
@@ -302,7 +303,7 @@
         </g>
 
         <!-- Have a great... -->
-        <g transform="translate(10, 289)" class="msg-6">
+        <g transform="translate(10, 309)" class="msg-6">
             <rect width="235" height="42" rx="18.0355" />
             <text x="15" y="27">Have a great {todayDay}! 👋🏻</text>
         </g>
