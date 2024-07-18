@@ -211,7 +211,7 @@
 <!--            <text x="15" y="27">I live in Seoul Korea – it’s supposed to be 79° F</text>-->
 <!--            <text x="15" y="50">(28° C) and ☀️ here today.</text>            -->
             <text x="15" y="27">I live in Seoul Korea</text>
-            <text x="15" y="50">The current temperature is estimated to be 24° C(75° F)</text>
+            <text x="15" y="50">The current temperature is estimated to be 23.9° C(75° F)</text>
             <text x="15" y="73">There is no precipitation and it is ☁️(Cloudy)</text>
         </g>
 
