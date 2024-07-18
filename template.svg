@@ -1,167 +1,207 @@
 
-    <svg width="550" height="400" viewBox="0 0 550 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="550" height="500" viewBox="0 0 550 400" fill="none" xmlns="http://www.w3.org/2000/svg">
         <style>
             rect {
-            fill: #e9e9eb;
+                fill: #e9e9eb;
             }
             a {
-            fill: #0079ff;
+                fill: #0079ff;
             }
             text {
-            fill: #242424;
-            font-size: 18px;
-            font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-            'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif';
+                fill: #242424;
+                font-size: 18px;
+                font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+                'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif';
             }
 
             .typing-1 {
-            opacity: 0;
-            animation: fade-in-out 1.5s;
+                opacity: 0;
+                animation: fade-in-out 1.5s;
             }
 
             .msg-1 {
-            animation: wait 1.7s, msg-1 0.2s 1.7s;
+                animation: wait 1.7s, msg-1 0.2s 1.7s;
             }
 
             .typing-2 {
-            opacity: 0;
-            animation: wait 2.5s, fade-in-out 1.5s 2.5s;
+                opacity: 0;
+                animation: wait 2.5s, fade-in-out 1.5s 2.5s;
             }
 
             .msg-2 {
-            animation: wait 4.2s, msg-2 0.2s 4.2s;
+                animation: wait 4.2s, msg-2 0.2s 4.2s;
             }
 
             .typing-3 {
-            opacity: 0;
-            animation: wait 5s, fade-in-out 1.5s 5s;
+                opacity: 0;
+                animation: wait 5s, fade-in-out 1.5s 5s;
             }
 
             .msg-3 {
-            animation: wait 6.7s, msg-3 0.2s 6.7s;
+                animation: wait 6.7s, msg-3 0.2s 6.7s;
             }
 
             .typing-4 {
-            opacity: 0;
-            animation: wait 7.5s, fade-in-out 1.5s 7.5s;
+                opacity: 0;
+                animation: wait 7.5s, fade-in-out 1.5s 7.5s;
             }
 
             .msg-4 {
-            animation: wait 9.2s, msg-4 0.2s 9.2s;
+                animation: wait 9.2s, msg-4 0.2s 9.2s;
             }
 
             .typing-5 {
-            opacity: 0;
-            animation: wait 10s, fade-in-out 1.5s 10s;
+                opacity: 0;
+                animation: wait 10s, fade-in-out 1.5s 10s;
             }
 
             .msg-5 {
-            animation: wait 11.7s, msg-5 0.2s 11.7s;
+                animation: wait 11.7s, msg-5 0.2s 11.7s;
             }
 
             .typing-6 {
-            opacity: 0;
-            animation: wait 12.5s, fade-in-out 1.5s 12.5s;
+                opacity: 0;
+                animation: wait 12.5s, fade-in-out 1.5s 12.5s;
             }
 
             .msg-6 {
-            animation: wait 14.2s, msg-6 0.2s 14.2s;
+                animation: wait 14.2s, msg-6 0.2s 14.2s;
+            }
+
+            .typing-7 {
+                opacity: 0;
+                animation: wait 15s, fade-in-out 1.5s 15s;
+            }
+
+            .msg-7 {
+                animation: wait 16.7s, msg-7 0.2s 16.7s;
+            }
+
+            .typing-8 {
+                opacity: 0;
+                animation: wait 17.5s, fade-in-out 1.5s 17.5s;
+            }
+
+            .msg-8 {
+                animation: wait 19.2s, msg-8 0.2s 19.2s;
             }
 
             @keyframes wait {
-            0%,
-            100% {
-            opacity: 0;
-            }
+                0%,
+                100% {
+                    opacity: 0;
+                }
             }
 
             @keyframes fade-in-out {
-            0%,
-            100% {
-            opacity: 0;
-            }
-            25%,
-            90% {
-            opacity: 1;
-            }
+                0%,
+                100% {
+                    opacity: 0;
+                }
+                25%,
+                90% {
+                    opacity: 1;
+                }
             }
 
             @keyframes msg-1 {
-            0% {
-            opacity: 0;
-            transform: translate(10px, 5px);
-            }
-            100% {
-            opacity: 1;
-            transform: translate(10px, 0);
-            }
+                0% {
+                    opacity: 0;
+                    transform: translate(10px, 5px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translate(10px, 0);
+                }
             }
 
             @keyframes msg-2 {
-            0% {
-            opacity: 0;
-            transform: translate(10px, 53px);
-            }
-            100% {
-            opacity: 1;
-            transform: translate(10px, 48px);
-            }
+                0% {
+                    opacity: 0;
+                    transform: translate(10px, 53px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translate(10px, 48px);
+                }
             }
 
             @keyframes msg-3 {
-            0% {
-            opacity: 0;
-            transform: translate(10px, 170px);
-            }
-            100% {
-            opacity: 1;
-            transform: translate(10px, 165px);
-            }
+                0% {
+                    opacity: 0;
+                    transform: translate(10px, 101px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translate(10px, 96px);
+                }
             }
 
             @keyframes msg-4 {
-            0% {
-            opacity: 0;
-            transform: translate(10px, 218px);
-            }
-            100% {
-            opacity: 1;
-            transform: translate(10px, 213px);
-            }
+                0% {
+                    opacity: 0;
+                    transform: translate(10px, 172px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translate(10px, 167px);
+                }
             }
 
             @keyframes msg-5 {
-            0% {
-            opacity: 0;
-            transform: translate(10px, 266px);
-            }
-            100% {
-            opacity: 1;
-            transform: translate(10px, 261px);
-            }
+                0% {
+                    opacity: 0;
+                    transform: translate(10px, 220px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translate(10px, 215px);
+                }
             }
 
             @keyframes msg-6 {
-            0% {
-            opacity: 0;
-            transform: translate(10px, 314px);
+                0% {
+                    opacity: 0;
+                    transform: translate(10px, 268px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translate(10px, 263px);
+                }
             }
-            100% {
-            opacity: 1;
-            transform: translate(10px, 309px);
+
+            @keyframes msg-7 {
+                0% {
+                    opacity: 0;
+                    transform: translate(10px, 316px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translate(10px, 311px);
+                }
             }
+
+            @keyframes msg-8 {
+                0% {
+                    opacity: 0;
+                    transform: translate(10px, 464px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translate(10px, 459px);
+                }
             }
 
             @media (prefers-color-scheme: dark) {
-            rect {
-            fill: #3b3b3d;
-            }
-            text {
-            fill: #dcdcdc;
-            }
-            a {
-            fill: #0c82f9;
-            }
+                rect {
+                    fill: #3b3b3d;
+                }
+                text {
+                    fill: #dcdcdc;
+                }
+                a {
+                    fill: #0c82f9;
+                }
             }
         </style>
 
@@ -184,7 +224,7 @@
 
         <!-- Hi, I'm Sigrid Jin -->
         <g transform="translate(10, 0)" class="msg-1">
-            <rect width="180" height="42" rx="18.0355" />
+            <rect width="173" height="42.1302" rx="18.0355" />
             <text x="15" y="27">Hi, I'm Tae Jun Kim</text>
         </g>
 
@@ -207,16 +247,12 @@
 
         <!-- From Columbus... -->
         <g transform="translate(10, 48)" class="msg-2">
-            <rect width="500" height="110.1302" rx="18.0355" />
+            <rect width="181" height="42.1302" rx="18.0355" />
             <text x="15" y="27">I live in Seoul Korea</text>
-            <text x="15" y="50">The current predicted temperature is a</text>
-            <text x="15" y="73">minimum of {degCMin}° C(maximum of {degCMax}° C).</text>
-            <text x="15" y="96">There is {hasPrecipitation} precipitation {precipitationType} and it is {weatherEmoji}({weatherText})</text>
         </g>
 
         <!-- typing 3 -->
-        <g transform="translate(10, 165)" class="typing-3">
-
+        <g transform="translate(10, 96)" class="typing-3">
             <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
             <circle cx="13.591" cy="33.091" r="7.68185" />
             <circle cx="3.54547" cy="41.9547" r="3.54547" />
@@ -234,13 +270,14 @@
         oo
 
         <!-- From Columbus... -->
-        <g transform="translate(10, 165)" class="msg-3">
-            <rect width="280" height="42" rx="18.0355" />
-            <text x="15" y="27">I'm a 3-year backend developer</text>
+        <g transform="translate(10, 96)" class="msg-3">
+            <rect width="350" height="65" rx="18.0355" />
+            <text x="15" y="27">The current predicted temperature is a</text>
+            <text x="15" y="50">minimum of {degCMin}° C(maximum of {degCMax}° C).</text>
         </g>
 
         <!-- typing 4 -->
-        <g transform="translate(10, 213)" class="typing-4">
+        <g transform="translate(10, 167)" class="typing-4">
             <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
             <circle cx="13.591" cy="33.091" r="7.68185" />
             <circle cx="3.54547" cy="41.9547" r="3.54547" />
@@ -257,13 +294,13 @@
         </g>
 
         <!-- Twitter -->
-        <g transform="translate(10, 213)" class="msg-4">
-            <rect width="325" height="42" rx="18.0355" />
-            <text x="15" y="27"> It's still not enough, but I'll work hard </text>
+        <g transform="translate(10, 167)" class="msg-4">
+            <rect width="400" height="42.1302" rx="18.0355" />
+            <text x="15" y="27">There is {hasPrecipitation} precipitation {precipitationType} and it is {weatherEmoji}({weatherText})</text>
         </g>
 
         <!-- typing 5 -->
-        <g transform="translate(10, 261)" class="typing-5">
+        <g transform="translate(10, 215)" class="typing-5">
             <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
             <circle cx="13.591" cy="33.091" r="7.68185" />
             <circle cx="3.54547" cy="41.9547" r="3.54547" />
@@ -280,13 +317,13 @@
         </g>
 
         <!-- Thanks -->
-        <g transform="translate(10, 261)" class="msg-5">
-            <rect width="210" height="42" rx="18.0355" />
-            <text x="15" y="27">Thanks for stopping by</text>
+        <g transform="translate(10, 215)" class="msg-5">
+            <rect width="275" height="42.1302" rx="18.0355" />
+            <text x="15" y="27">I'm a 3-year backend developer</text>
         </g>
 
         <!-- typing 6 -->
-        <g transform="translate(10, 309)" class="typing-6">
+        <g transform="translate(10, 263)" class="typing-6">
             <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
             <circle cx="13.591" cy="33.091" r="7.68185" />
             <circle cx="3.54547" cy="41.9547" r="3.54547" />
@@ -303,8 +340,54 @@
         </g>
 
         <!-- Have a great... -->
-        <g transform="translate(10, 309)" class="msg-6">
-            <rect width="235" height="42" rx="18.0355" />
+        <g transform="translate(10, 263)" class="msg-6">
+            <rect width="320" height="42.1302" rx="18.0355" />
+            <text x="15" y="27">It's still not enough, but I'll work hard</text>
+        </g>
+
+        <!-- typing 7 -->
+        <g transform="translate(10, 311)" class="typing-7">
+            <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
+            <circle cx="13.591" cy="33.091" r="7.68185" />
+            <circle cx="3.54547" cy="41.9547" r="3.54547" />
+
+            <circle cx="27.4778" cy="20.9773" r="5.02275" fill="#999999">
+                <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
+            </circle>
+            <circle cx="42.8411" cy="20.9773" r="5.02275" fill="#999999">
+                <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.2s" repeatCount="indefinite" />
+            </circle>
+            <circle cx="58.2054" cy="20.9773" r="5.02275" fill="#999999">
+                <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
+            </circle>
+        </g>
+
+        <!-- Have a great... -->
+        <g transform="translate(10, 311)" class="msg-7">
+            <rect width="212" height="42.1302" rx="18.0355" />
+            <text x="15" y="27">Thanks for stopping by</text>
+        </g>
+
+        <!-- typing 8 -->
+        <g transform="translate(10, 359)" class="typing-8">
+            <rect x="8.27246" width="69.7276" height="42" rx="20.9774" />
+            <circle cx="13.591" cy="33.091" r="7.68185" />
+            <circle cx="3.54547" cy="41.9547" r="3.54547" />
+
+            <circle cx="27.4778" cy="20.9773" r="5.02275" fill="#999999">
+                <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
+            </circle>
+            <circle cx="42.8411" cy="20.9773" r="5.02275" fill="#999999">
+                <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.2s" repeatCount="indefinite" />
+            </circle>
+            <circle cx="58.2054" cy="20.9773" r="5.02275" fill="#999999">
+                <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
+            </circle>
+        </g>
+
+        <!-- Have a great... -->
+        <g transform="translate(10, 359)" class="msg-8">
+            <rect width="235" height="42.1302" rx="18.0355" />
             <text x="15" y="27">Have a great {todayDay}! 👋🏻</text>
         </g>
     </svg>
