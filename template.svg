@@ -211,8 +211,8 @@
 <!--            <text x="15" y="27">I live in Seoul Korea – it’s supposed to be 79° F</text>-->
 <!--            <text x="15" y="50">(28° C) and ☀️ here today.</text>            -->
             <text x="15" y="27">I live in Seoul Korea</text>
-            <text x="15" y="50">The current temperature is estimated to be {degC}° C({degF}° F)</text>
-            <text x="15" y="73">There is {hasPrecipitation} precipitation and it is {weatherEmoji}({weatherText})</text>
+            <text x="15" y="50">The current predicted temperature is as low as {degCMin}° C (maximum as {degCMax}° C).</text>
+            <text x="15" y="73">There is {hasPrecipitation} precipitation {precipitationType == null} and it is {weatherEmoji}({weatherText})</text>
         </g>
 
         <!-- typing 3 -->

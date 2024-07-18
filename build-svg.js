@@ -11,7 +11,6 @@ import { formatDistance } from 'date-fns';
 
 
 let WEATHER_DOMAIN = 'http://dataservice.accuweather.com';
-
 const emojis = {
     '1': '☀️',
     '2': '☀️',
@@ -66,6 +65,7 @@ const dayBubbleWidths = {
     Sunday: 230,
 }
 
+
 // Time working at PlanetScale
 function convertTZ(date, tzString) {
     return new Date((typeof date === "string" ? new Date(date) : date).toLocaleString("en-US", {timeZone: tzString}));
@@ -79,18 +79,31 @@ const psTime = formatDistance(new Date(2020, 12, 14), today, {
 
 // Today's weather
 const locationKey = '226081' // Seoul
-let url = `currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}&language=en-us`;
+//let url = `currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}&language=en-us`;
+let url = `forecasts/v1/daily/1day/${locationKey}?apikey=${WEATHER_API_KEY}&language=en-us&details=true&metric=true`;
 
 got.get(url, {
     prefixUrl: WEATHER_DOMAIN
 }).then((res) => {
-    let json = JSON.parse(res.body)
 
-    const degC = json[0].Temperature.Metric.Value;
-    const degF = json[0].Temperature.Imperial.Value;
-    const icon = json[0].WeatherIcon;
-    const hasPrecipitation = json[0].HasPrecipitation == true ? "" : 'no'; //강수량 true,false
-    const weatherText = json[0].WeatherText;
+    let json = JSON.parse(res.body).DailyForecasts[0];
+
+    const degCMin = json.Temperature.Minimum.Value;
+    const degCMax = json.Temperature.Maximum.Value;
+
+    const date = new Date();
+    const currentTime = date.getHours();
+
+    json = currentTime < 18 ? json.Day : json.Night;
+    const icon = json.Icon; //아이콘
+    const iconPhrase = json.IconPhrase;  // 아이콘 문구
+    const hasPrecipitation = json.HasPrecipitation ? "" : "no"; //강수량
+    const precipitationType = json.HasPrecipitation ? json.PrecipitationType : null; //강수량 유형
+
+    // const degC = json[0].Temperature.Metric.Value;
+    // const icon = json[0].WeatherIcon;
+    // const hasPrecipitation = json[0].HasPrecipitation == true ? "" : 'no'; //강수량 true,false
+    // const weatherText = json[0].WeatherText;
 
     fs.readFile('template.svg', 'utf-8', (error, data) => {
         if (error) {
@@ -98,14 +111,16 @@ got.get(url, {
             return
         }
 
-        data = data.replace('{degC}', degC);
-        data = data.replace('{degF}', degF);
+        data = data.replace('{degCMin}', degCMin);
+        data = data.replace('{degCMax}', degCMax);
         data = data.replace('{weatherEmoji}', emojis[icon]);
+        data = data.replace('{weatherText}', iconPhrase);
+
         data = data.replace('{psTime}', psTime);
         data = data.replace('{todayDay}', todayDay);
         data = data.replace('{dayBubbleWidth}', dayBubbleWidths[todayDay]);
         data = data.replace('{hasPrecipitation}', hasPrecipitation);
-        data = data.replace('{weatherText}', weatherText);
+        data = data.replace('{precipitationType}', precipitationType);
 
         data = fs.writeFile('chat.svg', data, (err) => {
             if (err) {
