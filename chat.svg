@@ -271,7 +271,7 @@
 
         <!-- From Columbus... -->
         <g transform="translate(10, 96)" class="msg-3">
-            <rect width="350" height="65" rx="18.0355" />
+            <rect width="360" height="65" rx="18.0355" />
             <text x="15" y="27">The current predicted temperature is a</text>
             <text x="15" y="50">minimum of 23.5° C(maximum of 25.7° C).</text>
         </g>
@@ -286,7 +286,7 @@
                 <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
             </circle>
             <circle cx="42.8411" cy="20.9773" r="5.02275" fill="#999999">
-                <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begrin="0.2s" repeatCount="indefinite" />
+                <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.2s" repeatCount="indefinite" />
             </circle>
             <circle cx="58.2054" cy="20.9773" r="5.02275" fill="#999999">
                 <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
@@ -295,8 +295,8 @@
 
         <!-- Twitter -->
         <g transform="translate(10, 167)" class="msg-4">
-            <rect width="400" height="42.1302" rx="18.0355" />
-            <text x="15" y="27">There is  precipitation (Rain) and it is 🌧️(Rain)</text>
+            <rect width="380" height="42.1302" rx="18.0355" />
+            <text x="15" y="27">There is  precipitation and it is 🌧️(Rain)</text>
         </g>
 
         <!-- typing 5 -->
@@ -318,7 +318,7 @@
 
         <!-- Thanks -->
         <g transform="translate(10, 215)" class="msg-5">
-            <rect width="275" height="42.1302" rx="18.0355" />
+            <rect width="278" height="42.1302" rx="18.0355" />
             <text x="15" y="27">I'm a 3-year backend developer</text>
         </g>
 
