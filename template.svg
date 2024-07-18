@@ -295,7 +295,7 @@
 
         <!-- Twitter -->
         <g transform="translate(10, 167)" class="msg-4">
-            <rect width="380" height="42.1302" rx="18.0355" />
+            <rect width="335" height="42.1302" rx="18.0355" />
             <text x="15" y="27">There is {hasPrecipitation} precipitation and it is {weatherEmoji}({weatherText})</text>
         </g>
 
