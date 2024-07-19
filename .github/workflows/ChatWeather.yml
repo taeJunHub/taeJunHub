@@ -1,4 +1,4 @@
-name: Chat Weater
+name: Chat Weather
 
 on:
   schedule:
@@ -27,7 +27,7 @@ jobs:
         with:
           author_name: taeJunHub
           author_email: kisdo0084@naver.com
-          message: "Auto updating my Chat Weater"
+          message: "Auto updating my Chat Weather"
           add: "*.svg"
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}

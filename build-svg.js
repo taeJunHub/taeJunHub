@@ -79,7 +79,6 @@ const psTime = formatDistance(new Date(2020, 12, 14), today, {
 
 // Today's weather
 const locationKey = '226081' // Seoul
-//let url = `currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}&language=en-us`;
 let url = `forecasts/v1/daily/1day/${locationKey}?apikey=${WEATHER_API_KEY}&language=en-us&details=true&metric=true`;
 
 got.get(url, {
@@ -99,11 +98,6 @@ got.get(url, {
     const iconPhrase = json.IconPhrase;  // 아이콘 문구
     const hasPrecipitation = json.HasPrecipitation ? "" : "no"; //강수량
     const precipitationType = json.HasPrecipitation ? "("+json.PrecipitationType+")" : ""; //강수량 유형
-
-    // const degC = json[0].Temperature.Metric.Value;
-    // const icon = json[0].WeatherIcon;
-    // const hasPrecipitation = json[0].HasPrecipitation == true ? "" : 'no'; //강수량 true,false
-    // const weatherText = json[0].WeatherText;
 
     fs.readFile('template.svg', 'utf-8', (error, data) => {
         if (error) {
