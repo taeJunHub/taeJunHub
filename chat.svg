@@ -224,7 +224,7 @@
 
         <!-- Hi, I'm Sigrid Jin -->
         <g transform="translate(10, 0)" class="msg-1">
-            <rect width="173" height="42.1302" rx="18.0355" />
+            <rect width="360" height="42.1302" rx="18.0355" />
             <text x="15" y="27">Hi, I'm Tae Jun Kim</text>
         </g>
 
@@ -247,7 +247,7 @@
 
         <!-- From Columbus... -->
         <g transform="translate(10, 48)" class="msg-2">
-            <rect width="181" height="42.1302" rx="18.0355" />
+            <rect width="360" height="42.1302" rx="18.0355" />
             <text x="15" y="27">I live in Seoul Korea</text>
         </g>
 
@@ -295,7 +295,7 @@
 
         <!-- Twitter -->
         <g transform="translate(10, 167)" class="msg-4">
-            <rect width="310" height="42.1302" rx="18.0355" />
+            <rect width="360" height="42.1302" rx="18.0355" />
             <text x="15" y="27">There is  precipitation and it is ⛈️</text>
         </g>
 
@@ -318,7 +318,7 @@
 
         <!-- Thanks -->
         <g transform="translate(10, 215)" class="msg-5">
-            <rect width="278" height="42.1302" rx="18.0355" />
+            <rect width="360" height="42.1302" rx="18.0355" />
             <text x="15" y="27">I'm a 3-year backend developer</text>
         </g>
 
@@ -341,7 +341,7 @@
 
         <!-- Have a great... -->
         <g transform="translate(10, 263)" class="msg-6">
-            <rect width="320" height="42.1302" rx="18.0355" />
+            <rect width="360" height="42.1302" rx="18.0355" />
             <text x="15" y="27">It's still not enough, but I'll work hard</text>
         </g>
 
@@ -364,7 +364,7 @@
 
         <!-- Have a great... -->
         <g transform="translate(10, 311)" class="msg-7">
-            <rect width="212" height="42.1302" rx="18.0355" />
+            <rect width="360" height="42.1302" rx="18.0355" />
             <text x="15" y="27">Thanks for stopping by</text>
         </g>
 
@@ -387,7 +387,7 @@
 
         <!-- Have a great... -->
         <g transform="translate(10, 359)" class="msg-8">
-            <rect width="240" height="42.1302" rx="18.0355" />
+            <rect width="360" height="42.1302" rx="18.0355" />
             <text x="15" y="27">Have a great Friday! 👋🏻</text>
         </g>
     </svg>
