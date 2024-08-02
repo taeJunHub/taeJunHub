@@ -115,6 +115,7 @@ got.get(url, {
         data = data.replace('{dayBubbleWidth}', dayBubbleWidths[todayDay]);
         data = data.replace('{hasPrecipitation}', hasPrecipitation);
         data = data.replace('{precipitationType}', precipitationType);
+        data = data.replace('{widthTest}', 300);
 
         data = fs.writeFile('chat.svg', data, (err) => {
             if (err) {
