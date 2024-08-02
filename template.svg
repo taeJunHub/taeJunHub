@@ -387,7 +387,7 @@
 
         <!-- Have a great... -->
         <g transform="translate(10, 359)" class="msg-8">
-            <rect width="300" height="42.1302" rx="18.0355" />
+            <rect width="${widthTest}" height="42.1302" rx="18.0355" />
             <text x="15" y="27">Have a great {todayDay}! 👋🏻</text>
 <!--            <text x="15" y="27">Have a great Friday! 👋🏻</text>-->
 <!--            <text x="15" y="27">Have a great Wednesday! 👋🏻</text>-->
