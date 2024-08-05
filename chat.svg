@@ -273,7 +273,7 @@
         <g transform="translate(10, 96)" class="msg-3">
             <rect width="360" height="65" rx="18.0355" />
             <text x="15" y="27">The current predicted temperature is a</text>
-            <text x="15" y="50">minimum of 27.2° C(maximum of 34.1° C).</text>
+            <text x="15" y="50">minimum of 26.5° C(maximum of 34.1° C).</text>
         </g>
 
         <!-- typing 4 -->
@@ -388,6 +388,6 @@
         <!-- Have a great... -->
         <g transform="translate(10, 359)" class="msg-8">
             <rect width="360" height="42.1302" rx="18.0355" />
-            <text x="15" y="27">Have a great Monday! 👋🏻</text>
+            <text x="15" y="27">Have a great Tuesday! 👋🏻</text>
         </g>
     </svg>
