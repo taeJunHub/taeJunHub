@@ -2,7 +2,7 @@ name: Chat Weather
 
 on:
   schedule:
-    - cron: "0 */6 * * *" #시간 마다 실행
+    - cron: "0 6,18 * * *" #시간 마다 실행
   workflow_dispatch:
 
 jobs:
