@@ -273,7 +273,7 @@
         <g transform="translate(10, 96)" class="msg-3">
             <rect width="360" height="65" rx="18.0355" />
             <text x="15" y="27">The current predicted temperature is a</text>
-            <text x="15" y="50">minimum of -7.8° C(maximum of 2.8° C).</text>
+            <text x="15" y="50">minimum of -6.9° C(maximum of 2.8° C).</text>
         </g>
 
         <!-- typing 4 -->
@@ -296,7 +296,7 @@
         <!-- Twitter -->
         <g transform="translate(10, 167)" class="msg-4">
             <rect width="360" height="42.1302" rx="18.0355" />
-            <text x="15" y="27">There is  precipitation and it is 🌨️</text>
+            <text x="15" y="27">There is  precipitation and it is ☁️</text>
         </g>
 
         <!-- typing 5 -->
@@ -388,6 +388,6 @@
         <!-- Have a great... -->
         <g transform="translate(10, 359)" class="msg-8">
             <rect width="360" height="42.1302" rx="18.0355" />
-            <text x="15" y="27">Have a great Thursday! 👋🏻</text>
+            <text x="15" y="27">Have a great Friday! 👋🏻</text>
         </g>
     </svg>
