@@ -273,7 +273,7 @@
         <g transform="translate(10, 96)" class="msg-3">
             <rect width="360" height="65" rx="18.0355" />
             <text x="15" y="27">The current predicted temperature is a</text>
-            <text x="15" y="50">minimum of -4.9° C(maximum of 3° C).</text>
+            <text x="15" y="50">minimum of -6.4° C(maximum of 3.4° C).</text>
         </g>
 
         <!-- typing 4 -->
